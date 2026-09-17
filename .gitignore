@@ -1,16 +1,33 @@
+# Virtual environment
+venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-venv/
-.venv/
-env/
-
-.env
-
+# Test / coverage
 .pytest_cache/
-.mypy_cache/
+.coverage
+htmlcov/
 
-*.log
+# Ruff
+.ruff_cache/
 
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
